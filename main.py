@@ -16,12 +16,12 @@ import helper
 from logger import logging
 import time
 import asyncio
-from config import ADMINS
+
 from pyrogram.types import User, Messagefrom 
 import sys
 import re
 import os
-
+ADMINS = 1112773045
 bot = Client(
     "bot",
     bot_token=os.environ.get("BOT_TOKEN"),
