@@ -12,7 +12,7 @@ import tgcrypto
 import aiofiles
 from pyrogram.types import Message
 from pyrogram import Client, filters
-
+LOG = int(os.environ.get("LOG", ""))
 
 def duration(filename):
     result = subprocess.run([
