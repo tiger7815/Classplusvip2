@@ -11,7 +11,7 @@ class Config(object):
     PASS_DB = int(os.environ.get("PASS_DB", "721")
     OWNER = int(os.environ.get("OWNER", ""))
     ADMINS = int(os.environ.get("ADMINS", ""))
-    LOG = -1001982419675
+    LOG = int(os.environ.get("LOG", ""))
 
 
 
