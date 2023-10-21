@@ -20,7 +20,7 @@ from pyrogram.types import User, Message
 import sys
 import re
 import os
-ADMINS = os.environ.get("ADMINS", "")
+ADMINS = int(os.environ.get("ADMINS", ""))
 bot = Client(
     "bot",
     bot_token=os.environ.get("BOT_TOKEN"),
