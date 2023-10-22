@@ -15,26 +15,15 @@ services:
         sync: false
       - key: API_HASH
         sync: false
-      - key: FORCE_SUB
+      - key: ADMINS
         sync: false
       - key: LOG_CHANNEL
         sync: false
-      - key: DB_NAME
+      - key: LOG
         sync: false
       - key: DATABASE_URI
         sync: false
-      - key: START_PIC
-        sync: false
-      - key: ADMIN
-        sync: false
-      - key: WEBHOOK
-        sync: false
-      - key: PICS
-        sync: false
-      - key: PYTHON_VERSIOM
-        sync: false
-      - key: AUTH_CHANNEL
-        sync: false
+
 
 
 
